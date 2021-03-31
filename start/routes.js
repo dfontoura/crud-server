@@ -24,6 +24,6 @@ Route.resource('levels', 'LevelController')
   .apiOnly()
   .middleware('auth')
 
-//Route.get('/', () => {
-//  return { greeting: 'Hello world in JSON' }
-//})
+Route.get('/', () => {
+  return { greeting: 'Hello world in JSON' }
+})
